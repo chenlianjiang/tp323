@@ -18,7 +18,7 @@ return array(
     'DB_PREFIX'             =>  'tp_',    // 数据库表前缀
 
      //微信公众号身份的唯一标识。
-     'APPID' => 'wx654a22c6423213b7',
+     'APPID' => 'wx1183e3d08755577b',
     //受理商ID，身份标识
      'MCHID' => '10043241',
      'MCHNAME' => 'KellyCen的博客',
@@ -26,7 +26,7 @@ return array(
     //商户支付密钥Key。
      'KEY' => '0000000000000000000000000000000',
     //JSAPI接口中获取openid
-     'APPSECRET' => '000000000000000000000000000',
+     'APPSECRET' => '1cf37eabfcf65f42ba9c4513788d5239',
 
     //证书路径,注意应该填写绝对路径
     'SSLCERT_PATH' => '/home/WxPayCacert/apiclient_cert.pem',
