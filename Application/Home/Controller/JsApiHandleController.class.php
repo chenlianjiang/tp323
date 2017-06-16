@@ -23,7 +23,9 @@ class JsApiHandleController extends JsApiCommonController {
      */
     public function createOauthUrlForCode() {
         //重定向URL
-        $redirectUrl = "http://www.itcen.cn/wxpay/confirm/".$orderId."?showwxpaytitle=1";
+        //createOauthUrl
+        //http://120.24.255.95/tp323/index.php?s=/home/wxpay/index.html
+        $redirectUrl = "http://120.24.255.95/tp323/index.php?s=/home/index/index.html?showwxpaytitle=1";
         $urlParams['appid'] = C('APPID');
         $urlParams['redirect_uri'] = $redirectUrl;
         $urlParams['response_type'] = 'code';
